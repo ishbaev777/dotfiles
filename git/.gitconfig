@@ -1,0 +1,7 @@
+[user] 
+    name = Ilyas Ishbaev
+    email = ilyas.ishbaev@emlid.com
+[core]
+    editor = vim
+[init]
+	defaultBranch = main
