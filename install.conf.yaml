@@ -1,0 +1,12 @@
+- clean: ['~']
+
+- link:
+    ~/.tmux.conf: tmux/.tmux.conf
+    ~/.tmux: tmux/
+    ~/.git: git/
+    ~/.gitconfig: git/.gitconfig
+    ~/.vim: vim/
+    ~/.vimrc: vim/.vimrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
